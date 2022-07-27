@@ -13,6 +13,9 @@ body {
 h1 {
     font-size: 4vw;
 }
+h2 {
+    font-size: 3vw;
+}
 button {
     background-color: green;
     border: none;
@@ -87,3 +90,46 @@ nav {
 .form i {
     color : black;
 }
+
+/* Company Info section css */
+.company-info-area {
+    text-align: center;
+    padding: 10vh 0;
+}
+.company-info-area h2{
+    width: 50%;
+    margin: 0 auto;
+}
+.company-info-area img {
+    width: 100%;
+}
+.all-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+}
+/* Our Words Section */
+.our-words-area {
+    padding: 10vh 0;
+}
+.our-words-area .words-title {
+    width: 39%;
+    text-align: center;
+    margin: 0 auto;
+}
+.single-words-area {
+    display: flex;
+    align-items: center;
+}
+.single-words-area .words-img {
+    width: 50%;
+    padding: 3vw;
+}
+.single-words-area .words-img img {
+    width: 100%;
+}
+.single-words-area .words-content {
+    width: 50%;
+    padding: 3vw;
+}
+
