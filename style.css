@@ -216,8 +216,11 @@ footer {
 
 /* Responsvie CSS */
 @media(max-width: 850px){
+    h1 {
+        font-size: 6vw;
+    }
     h2 {
-        font-size: 4vw;
+        font-size: 5vw;
     }
     #welcome-section {
         padding: 2vh 0;
@@ -270,14 +273,14 @@ footer {
     .our-teams-area {
         padding: 5vh 0;
     }
-    .team-title h2 {
-        font-size: 4vw;
-    }
     .title-details p {
         text-align: justify;
     }
     .teams {
         flex-direction: column;
+    }
+    .team-title h2 {
+        width: 100%;
     }
     footer {
         padding: 3vh 0;
