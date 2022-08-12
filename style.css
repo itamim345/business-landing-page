@@ -38,6 +38,11 @@ nav {
 .logo-area img {
     width: 8vw;
 }
+.menu-area li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 2vw 0;
+}
 .menu-area a {
     text-decoration: none;
     margin: 0 15px;
@@ -64,7 +69,7 @@ nav {
 }
 .welcome-img img {
     width: 100%;
-    height: 85vh;
+    height: 30vw;
     border-radius: 10px;
     min-height: 400px;
 }
@@ -89,6 +94,9 @@ nav {
 }
 .form i {
     color : black;
+}
+.form button {
+    padding: 1vw 2vw;
 }
 
 /* Company Info section css */
@@ -203,4 +211,97 @@ footer {
 }
 .footer-bottom li a {
     color: gray;
+    cursor: pointer;
+}
+
+/* Responsvie CSS */
+@media(max-width: 850px){
+    h2 {
+        font-size: 4vw;
+    }
+    #welcome-section {
+        padding: 2vh 0;
+    }
+    nav {
+        flex-direction: column;
+        padding: 2vh 0;
+    }
+    .logo-area img {
+        margin-bottom: 3vw;
+        width: 15vw;
+    }
+    #talk-btn {
+        display: block;
+        text-align: center;
+        margin: 3vw auto !important;
+    }
+    .welcome-content {
+        flex-direction: column;  
+    }
+    .welcome-img,.welcome-info {
+        width: 100%;
+    }
+    .welcome-img {
+        width: 100%;
+        padding: 0;
+    }
+    .form {
+        justify-content: space-between;
+    }
+    .company-info-area {
+        padding: 5vh 0;
+    }
+    .welcome-content {
+        padding: 3vw 0;
+    }
+    .our-words-area {
+        padding: 0 0 5vh 0;
+    }
+    .single-words-area {
+        flex-direction: column;
+        gap: 6vw;
+    }
+    .single-words-area:nth-child(3){
+        flex-direction: column-reverse;
+    }
+    .words-img,.words-content {
+        width: 100% !important;
+    }
+    .our-teams-area {
+        padding: 5vh 0;
+    }
+    .team-title h2 {
+        font-size: 4vw;
+    }
+    .title-details p {
+        text-align: justify;
+    }
+    .teams {
+        flex-direction: column;
+    }
+    footer {
+        padding: 3vh 0;
+    }
+    .footer-up .logo img {
+        width: 15vw;
+    }
+    .footer-up ul {
+        font-size: 5vw;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-area ul li {
+        display: inline-block;
+    }
+    .footer-area ul li a {
+        margin: 2vw 4vw;
+    }
+    .footer-end {
+        text-align: center;
+    }
+    .footer-end span {
+        color: crimson;
+    }
 }
